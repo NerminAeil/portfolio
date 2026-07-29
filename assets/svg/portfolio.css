@@ -1,0 +1,733 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  min-height: 50vh;
+  background-color: #222831;
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: column;
+  margin: 0;
+}
+
+/* ---------- Navigation ---------- */
+.navigation {
+  border: 5px solid #64c0c5;
+  background-color: #00adb5;
+}
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-end;
+  margin: 30px 100px;
+  gap: 2rem;
+  font-size: large;
+  font-weight: 900;
+}
+.navigation a {
+  text-decoration: none;
+  color: #eeeeee;
+  font-size: 17px;
+}
+.navigation a:hover {
+  color: #222831;
+}
+.navigation a:visited {
+  color: darkslategray;
+}
+.hero-text p {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  color: #eeeeee;
+}
+span {
+  color: #00adb5;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2rem;
+  height: 75vh;
+}
+
+.heroSub {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  position: relative;
+}
+
+.name {
+  margin-top: 5px;
+  font-size: 3rem;
+  color: #eeeeee;
+  text-shadow:
+    3px -3px 3px #eeeeee,
+    -3px 3px 3px #00adb5;
+}
+
+.title {
+  margin-top: -30px;
+  font-size: 3rem;
+  color: #00adb5;
+}
+hr {
+  margin-top: -10px;
+  border: none;
+  border-top: 2px solid #00adb5;
+  width: 100%;
+}
+h2 {
+  color: #eeeeee;
+}
+
+.fa-briefcase {
+  color: #00adb5;
+  font-size: 60px;
+}
+.internship {
+ display:flex;
+  color: #eeeeee;
+  justify-content: center;
+  font-size: 18px;
+  gap: 1.2em;
+}
+.intern{
+  display:flex;
+  gap:1.2em;
+  flex-direction:row;
+}
+
+.heroBtns {
+  margin-top: 0.5rem;
+}
+.hireMe {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #00adb5;
+  color: #eeeeee;
+  border-radius: 24px;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border: 3px solid #00adb5;
+  display: inline-block;
+  margin-left: 70px;
+}
+ #hm {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+#hm:hover {
+  transform: scale(1.1);
+}
+ #My-project {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+#My-project:hover {
+  transform: scale(1.1);
+}
+.heroImg {
+  max-height: 70vh;
+  margin-right: 50px;
+}
+
+/* ---------- About ---------- */
+.aboutMe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 5rem auto;
+  gap: 8rem;
+  padding: 0 2rem;
+}
+
+.textcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.textTitle {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 2rem;
+}
+
+.aboutName {
+  color: #eeeeee;
+}
+
+.aboutTitle {
+  color: #00adb5;
+}
+
+.aboutMePar {
+  color: rgba(238, 238, 238, 0.75);
+  text-align: justify;
+}
+.about-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+.stat {
+  border: none;
+  width: 100%;
+  border-right: 1px solid #00adb5;
+  text-align: center;
+  flex: 1;
+  /* Font Awesome icons inherit color from parent via currentColor */
+  color: #00adb5;
+  font-size: 35px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+}
+.stat h3 {
+  color: #00adb5;
+  font-size: 25px;
+  margin: 10px 0;
+}
+.stat p {
+  color: #eeeeee;
+  font-size: 14px;
+}
+.stat:last-child {
+  border-bottom: none;
+}
+
+/* ---------- Skills ---------- */
+.Skillscontainer {
+  text-align: center;
+}
+.Skillscontainer h3 {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  color: #00adb5;
+  border: none;
+  width: 100%;
+  font-size: x-large;
+  padding-bottom: 20px;
+  border-bottom: 5px solid #eeeeee;
+}
+.Skillscontainer h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #eeeeee;
+}
+.Skillscontainer p {
+  color: #eeeeee;
+}
+.Skills {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  border: none;
+  width: 300px;
+  border-bottom: 2px solid #00adb5;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  color: hsl(183, 96%, 51%);
+}
+
+#languagecontainers {
+  display: flex;
+  gap: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+}
+
+#librarycontainers {
+  margin-left: 50px;
+}
+
+#toolscontainer {
+  display: flex;
+  gap: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+}
+
+.Skillscards {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: hsl(0, 0%, 93%);
+  width: 30%;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  border: 2px solid #455876;
+  transition: 0.3s;
+}
+.Skillscards:hover {
+  transform: translateY(-10px) scale(1.05);
+  background-color: #00adb5;
+}
+.fa-html5 {
+  color: #e34f26;
+  font-size: 40px;
+}
+.fa-css3-alt {
+  color: #1572b6;
+  font-size: 40px;
+}
+.fa-js {
+  color: #f7df1e;
+  font-size: 40px;
+}
+
+.library h3 {
+  color: #eeeeee;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.fa-react {
+  color: #61dafb;
+  font-size: 40px;
+}
+.fa-git-alt {
+  color: #f05032;
+  font-size: 40px;
+}
+.fa-github {
+  color: #ffffff;
+  font-size: 40px;
+}
+.devicon-vscode-plain {
+  color: #007acc;
+  font-size: 40px;
+}
+
+/* ---------- Contact ---------- */
+.contactContainer {
+  max-width: 1200px;
+  margin: 5rem auto;
+  padding: 0 2rem;
+}
+
+.contactTitle {
+  display: flex;
+  gap: 10px;
+  font-size: 2rem;
+}
+.contactContainer p {
+  color: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.email {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: hsl(0, 0%, 93%);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 2px solid #455876;
+  transition: 0.3s;
+}
+.email:hover {
+  transform: translateY(-5px);
+}
+.fa-envelope {
+  color: #00adb5;
+  font-size: 60px;
+  flex-shrink: 0;
+}
+.EmailI {
+  text-align: left;
+}
+.EmailI h3.connect {
+  color: #eeeeee;
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
+.email a {
+  color: #eeeeee;
+  text-decoration: none;
+  font-size: 14px;
+}
+.email a:hover {
+  color: #00adb5;
+}
+.Github {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: hsl(0, 0%, 93%);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 2px solid #455876;
+  transition: 0.3s;
+}
+.Github:hover {
+  transform: translateY(-5px);
+}
+.GithubI {
+  text-align: left;
+}
+.Github h3.connect {
+  color: #eeeeee;
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
+
+.Github a {
+  color: #eeeeee;
+  text-decoration: none;
+  font-size: 14px;
+}
+.Github a:hover {
+  color: #00adb5;
+}
+.linkedin {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: hsl(0, 0%, 93%);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 2px solid #455876;
+  transition: 0.3s;
+}
+.linkedin:hover {
+  transform: translateY(-5px);
+}
+.linkedinI {
+  text-align: left;
+}
+.linkedin h3.connect {
+  color: #eeeeee;
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
+
+.linkedin a {
+  color: #eeeeee;
+  text-decoration: none;
+  font-size: 14px;
+}
+.linkedin a:hover {
+  color: #00adb5;
+}
+.location {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: hsl(0, 0%, 93%);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 2px solid #455876;
+  transition: 0.3s;
+}
+.location:hover {
+  transform: translateY(-5px);
+}
+.locationI {
+  text-align: left;
+}
+.location h3.connect {
+  color: #eeeeee;
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
+
+.location a {
+  color: #eeeeee;
+  text-decoration: none;
+  font-size: 14px;
+}
+.location a:hover {
+  color: #00adb5;
+}
+.fa-linkedin {
+  color: #00adb5;
+  font-size: 60px;
+}
+.fa-location-dot {
+  color: #00adb5;
+  font-size: 60px;
+}
+.fa-github {
+  color: #00adb5;
+  font-size: 60px;
+}
+.message {
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid #294063;
+  background-color: #07101b;
+  padding-top: 40px;
+}
+.message h1 {
+  color: #eeeeee;
+}
+.label {
+  color: #00adb5;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Name {
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #222831;
+  border: 2px solid #00adb5;
+}
+#email {
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #222831;
+  border: 2px solid #00adb5;
+}
+#Subject {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #222831;
+  border: 2px solid #00adb5;
+}
+.message h1 {
+  margin-bottom: 70px;
+}
+#message {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #222831;
+  border: 2px solid #00adb5;
+}
+#submit {
+  margin-bottom: 40px;
+  padding: 20px 100px;
+  border-radius: 50px;
+  background-color: #222831;
+  border: 2px solid #00adb5;
+  transition: 0.3s;
+}
+#submit:active {
+  background-color: #007acc;
+}
+#footer{
+  color:#eeeeee;
+}
+/* ---------- Mobile Screens Only (max-width: 480px) ---------- */
+@media (max-width: 480px) {
+  /* --- Navigation --- */
+  .navigation ul {
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 20px;
+    gap: 0.6rem;
+  }
+  .navigation a {
+    font-size: 15px;
+    display: block;
+    padding: 4px 0;
+  }
+
+  /* --- Hero --- */
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 1.5rem;
+    text-align: center;
+  }
+  .heroSub {
+    align-items: center;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .title {
+    font-size: 1.8rem;
+    margin-top: -10px;
+  }
+  .hero-text p {
+    font-size: 15px;
+  }
+  .fa-briefcase {
+    font-size: 40px;
+  }
+  .internship {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 15px;
+  }
+  .internship h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .heroBtns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  .hireMe {
+    margin-left: 0;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+  }
+  .heroImg {
+    display: block;
+  }
+
+  /* --- About --- */
+  .aboutMe {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 1.5rem;
+    margin: 3rem auto;
+    text-align: center;
+  }
+  .aboutMe img {
+    display: display;
+  }
+  .textTitle {
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .aboutMePar {
+    font-size: 14px;
+  }
+  .about-stats {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .stat {
+    border-right: none;
+    border-bottom: 1px solid #00adb5;
+    padding-bottom: 15px;
+    padding-right: 0;
+  }
+  .stat h3 {
+    font-size: 20px;
+  }
+  .stat p {
+    font-size: 13px;
+  }
+
+  /* --- Skills --- */
+  .skills {
+    padding: 0 1.5rem;
+  }
+  .Skillscontainer h3 {
+    font-size: large;
+  }
+  .Skillscontainer h1 {
+    font-size: 1.8rem;
+  }
+  .Skillscontainer p {
+    font-size: 14px;
+  }
+  .Skills {
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+  }
+  #languagecontainers,
+  #toolscontainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  #librarycontainers {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .Skillscards {
+    width: 100%;
+    max-width: 280px;
+    padding: 20px 15px;
+    margin: 20px 0;
+  }
+
+  /* --- Contact --- */
+  .contactContainer {
+    padding: 0 1.5rem;
+    margin: 3rem auto;
+  }
+  .contactTitle {
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .contactContainer p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .contact {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .email,
+  .Github,
+  .linkedin,
+  .location {
+    width: 100%;
+  }
+  .message h1 {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+  }
+  .label {
+    font-size: 16px;
+  }
+  #Name,
+  #email {
+    display: block;
+    width: 85%;
+    margin: 10px auto;
+  }
+  #Subject {
+    display: block;
+    width: 85%;
+    margin: 20px auto 0;
+  }
+  #message {
+    display: block;
+    width: 85%;
+    max-width: 85%;
+    margin: 0 auto;
+  }
+  #submit {
+    display: block;
+    padding: 15px 50px;
+    font-size: 16px;
+    margin: 0 auto 40px;
+  }
+  footer p {
+    font-size: 13px;
+    text-align: center;
+    color:#eeeeee;
+  }
+}
