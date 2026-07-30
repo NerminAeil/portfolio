@@ -313,7 +313,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
 }
-.contact-card {
+.email {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: hsl(0, 0%, 93%);
   display: flex;
@@ -326,6 +326,7 @@ h2 {
   border: 2px solid #455876;
   transition: 0.3s;
 }
+
 .email:hover {
   transform: translateY(-5px);
 }
@@ -353,6 +354,19 @@ h2 {
 .Github:hover {
   transform: translateY(-5px);
 }
+.Github {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: hsl(0, 0%, 93%);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 2px solid #455876;
+  transition: 0.3s;
+}
 .GithubI {
   text-align: left;
 }
@@ -368,6 +382,19 @@ h2 {
 }
 .Github a:hover {
   color: #00adb5;
+}
+.linkedin {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: hsl(0, 0%, 93%);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 2px solid #455876;
+  transition: 0.3s;
 }
 .linkedin:hover {
   transform: translateY(-5px);
@@ -388,6 +415,19 @@ h2 {
 .linkedin a:hover {
   color: #00adb5;
 } 
+.location {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: hsl(0, 0%, 93%);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 2px solid #455876;
+  transition: 0.3s;
+}
 .location:hover {
   transform: translateY(-5px);
 }
