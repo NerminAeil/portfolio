@@ -26,8 +26,8 @@ This is a personal portfolio website designed to introduce myself, showcase my w
 📂 Project Structure
 
 - "index.html" - Main HTML file
-- "style.css" - Website styling
-- "script.js" - JavaScript functionality
+- "portfolio.css" - Website styling
+- "portfolio.js" - JavaScript functionality
 
 📬 Contact
 
