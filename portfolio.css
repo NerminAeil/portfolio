@@ -2,7 +2,6 @@
   box-sizing: border-box;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 body {
   min-height: 50vh;
   background-color: #222831;
@@ -70,7 +69,6 @@ span {
     3px -3px 3px #eeeeee,
     -3px 3px 3px #00adb5;
 }
-
 .title {
   margin-top: -30px;
   font-size: 3rem;
@@ -232,7 +230,6 @@ h2 {
   margin-top: 2rem;
   color: hsl(183, 96%, 51%);
 }
-
 #languagecontainers {
   display: flex;
   gap: 25px;
@@ -353,8 +350,6 @@ h2 {
 .email a:hover {
   color: #00adb5;
 }
-
- 
 .Github:hover {
   transform: translateY(-5px);
 }
@@ -374,7 +369,6 @@ h2 {
 .Github a:hover {
   color: #00adb5;
 }
-
 .linkedin:hover {
   transform: translateY(-5px);
 }
@@ -386,7 +380,6 @@ h2 {
   font-size: 18px;
   margin: 0 0 5px 0;
 }
-
 .linkedin a {
   color: #eeeeee;
   text-decoration: none;
@@ -442,6 +435,7 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
 #Name {
+  color:#eeeeee;
   margin-right: 50px;
   padding: 10px;
   border-radius: 50px;
@@ -449,12 +443,14 @@ h2 {
   border: 2px solid #00adb5;
 }
 #email {
+  color:#eeeeee;
   padding: 10px;
   border-radius: 50px;
   background-color: #222831;
   border: 2px solid #00adb5;
 }
 #Subject {
+  color:#eeeeee;
   margin-top: 20px;
   padding: 10px;
   border-radius: 50px;
@@ -465,6 +461,7 @@ h2 {
   margin-bottom: 70px;
 }
 #message {
+  color:#eeeeee;
   padding: 10px;
   border-radius: 10px;
   background-color: #222831;
@@ -618,7 +615,6 @@ button:focus,input:focus,textarea:focus{
     padding: 20px 15px;
     margin: 20px 0;
   }
-
   /* --- Contact --- */
   .contactContainer {
     padding: 0 1.5rem;
