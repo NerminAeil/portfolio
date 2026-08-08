@@ -1,4 +1,4 @@
-Nermine - Portfolio
+Nermin- Portfolio
 
 Welcome to my personal portfolio website! 🌟
 
