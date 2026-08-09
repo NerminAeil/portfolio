@@ -35,4 +35,4 @@ Feel free to explore my portfolio and get in touch with me!
 
 ---
 
-Made with ❤️ by Nermine
+Made with ❤️ by Nermin
