@@ -12,7 +12,6 @@ This is a personal portfolio website designed to introduce myself, showcase my w
 
 - HTML5
 - CSS3
-- JavaScript
 
 ✨ Features
 
@@ -21,7 +20,6 @@ This is a personal portfolio website designed to introduce myself, showcase my w
 - Skills section
 - Projects showcase
 - Contact section
-- Interactive elements using JavaScript
 
 📂 Project Structure
 
