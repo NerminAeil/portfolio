@@ -7,7 +7,6 @@ body {
   background-color: #222831;
   display: flex;
   flex-wrap: wrap;
-
   flex-direction: column;
   margin: 0;
 }
@@ -99,7 +98,6 @@ h2 {
   gap:1.2em;
   flex-direction:row;
 }
-
 .heroBtns {
   margin-top: 0.5rem;
 }
@@ -163,7 +161,7 @@ h2 {
   color: #00adb5;
 }
 .aboutMePar {
-  color: rgba(238, 238, 238, 0.75);
+  color: rgb(238, 238, 238, 0.75);
   text-align: justify;
 }
 .about-stats {
@@ -245,6 +243,8 @@ h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
 }
+#toolscontainer .fa-github { color: #ffffff; font-size: 40px; }
+
 .Skillscards {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: hsl(0, 0%, 93%);
@@ -285,10 +285,7 @@ h2 {
   color: #f05032;
   font-size: 40px;
 }
-.fa-github {
-  color: #ffffff;
-  font-size: 40px;
-}
+
 .devicon-vscode-plain {
   color: #007acc;
   font-size: 40px;
@@ -367,6 +364,8 @@ h2 {
   border: 2px solid #455876;
   transition: 0.3s;
 }
+.Github .fa-github { color: #00adb5; 
+                      font-size: 60px;}
 .GithubI {
   text-align: left;
 }
@@ -455,10 +454,7 @@ h2 {
   color: #00adb5;
   font-size: 60px;
 }
-.fa-github {
-  color: #00adb5;
-  font-size: 60px;
-}
+
 .message {
   text-align: center;
   border-radius: 25px;
@@ -497,7 +493,7 @@ h2 {
   background-color: #222831;
   border: 2px solid #00adb5;
 }
-.message h1 {
+.message h2 {
   margin-bottom: 70px;
 }
 #message {
@@ -568,10 +564,10 @@ button:focus,input:focus,textarea:focus{
     gap: 0.5rem;
     font-size: 15px;
   }
-  .internship h2 {
-    font-size: 15px;
-    text-align: center;
-  }
+  .internship p {
+  font-size: 15px;
+  text-align: center;
+}
   .heroBtns {
     display: flex;
     flex-direction: column;
