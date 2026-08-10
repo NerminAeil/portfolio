@@ -523,6 +523,7 @@ button:focus,input:focus,textarea:focus{
 }
 #footer{
   color:#eeeeee;
+  margin:0px 50px;
 }
 /* ---------- Mobile Screens Only (max-width: 480px) ---------- */
 @media (max-width: 480px) {
