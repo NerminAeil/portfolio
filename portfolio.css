@@ -466,6 +466,7 @@ h2 {
   color: #eeeeee;
 }
 .label {
+  margin-left:50px;
   color: #00adb5;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -473,6 +474,7 @@ h2 {
 #Name {
   color:#eeeeee;
   margin-right: 50px;
+  margin-bottom:40px;
   padding: 10px;
   border-radius: 50px;
   background-color: #222831;
@@ -480,6 +482,7 @@ h2 {
 }
 #email {
   color:#eeeeee;
+  margin-right:50px;
   padding: 10px;
   border-radius: 50px;
   background-color: #222831;
@@ -504,7 +507,7 @@ h2 {
   border: 2px solid #00adb5;
 }
 #submit {
-  margin-bottom: 40px;
+  margin:40px;
   padding: 20px 100px;
   border-radius: 50px;
   background-color: #222831;
