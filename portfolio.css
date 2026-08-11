@@ -323,7 +323,6 @@ h2 {
   border: 2px solid #455876;
   transition: 0.3s;
 }
-
 .email:hover {
   transform: translateY(-5px);
 }
@@ -525,8 +524,8 @@ button:focus,input:focus,textarea:focus{
   color:#eeeeee;
   margin:0px 50px;
 }
-/* ---------- Mobile Screens Only (max-width: 480px) ---------- */
-@media  screen and (max-width: 480px) {
+/* ---------- Mobile Screens Only (max-width: 600px) ---------- */
+@media  (max-width: 480px) {
   /* --- Navigation --- */
   .navigation ul {
     flex-direction: column;
