@@ -683,6 +683,7 @@ button:focus,input:focus,textarea:focus{
   }
   .label {
     font-size: 16px;
+    margin-bottom:10px;
   }
   #Name,
   #email {
@@ -693,7 +694,7 @@ button:focus,input:focus,textarea:focus{
   #Subject {
     display: block;
     width: 85%;
-    margin: 10px auto;
+    margin: 5px auto;
   }
   #message {
     display: block;
@@ -705,7 +706,7 @@ button:focus,input:focus,textarea:focus{
     display: block;
     padding: 15px 50px;
     font-size: 16px;
-    margin: 10px auto 40px;
+    margin: 20px auto auto 40px;
   }
   footer p {
     font-size: 13px;
