@@ -525,7 +525,7 @@ button:focus,input:focus,textarea:focus{
   margin:0px 50px;
 }
 /* ---------- Mobile Screens Only (max-width: 600px) ---------- */
-@media  (max-width: 480px) {
+@media  (max-width: 600px) {
   /* --- Navigation --- */
   .navigation ul {
     flex-direction: column;
@@ -693,19 +693,19 @@ button:focus,input:focus,textarea:focus{
   #Subject {
     display: block;
     width: 85%;
-    margin: 20px auto 0;
+    margin: 10px auto;
   }
   #message {
     display: block;
     width: 85%;
     max-width: 85%;
-    margin: 0 auto;
+    margin: 10px auto;
   }
   #submit {
     display: block;
     padding: 15px 50px;
     font-size: 16px;
-    margin: 0 auto 40px;
+    margin: 10px auto 40px;
   }
   footer p {
     font-size: 13px;
