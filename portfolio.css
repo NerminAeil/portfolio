@@ -526,7 +526,7 @@ button:focus,input:focus,textarea:focus{
   margin:0px 50px;
 }
 /* ---------- Mobile Screens Only (max-width: 480px) ---------- */
-@media (max-width: 480px) {
+@media  screen (max-width: 480px) {
   /* --- Navigation --- */
   .navigation ul {
     flex-direction: column;
