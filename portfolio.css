@@ -506,7 +506,7 @@ h2 {
   border: 2px solid #00adb5;
 }
 #submit {
-  margin:40px;
+  margin:40px 40px;
   padding: 20px 100px;
   border-radius: 50px;
   background-color: #222831;
