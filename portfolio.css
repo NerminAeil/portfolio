@@ -506,7 +506,7 @@ h2 {
   border: 2px solid #00adb5;
 }
 #submit {
-  margin:20px auto;
+  margin:20px auto auto 40px;
   padding: 20px 100px;
   border-radius: 50px;
   background-color: #222831;
@@ -706,7 +706,7 @@ button:focus,input:focus,textarea:focus{
     display: block;
     padding: 15px 50px;
     font-size: 16px;
-    margin: 20px auto auto 40px;
+    margin: 20px auto ;
   }
   footer p {
     font-size: 13px;
