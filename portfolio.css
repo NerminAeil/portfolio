@@ -535,7 +535,11 @@ button:focus,input:focus,textarea:focus{
 .hero-text p,.internship, .stat p,.email a,.Github a,.linkedin a,.location a {
   font-size: 25px;
 }
-
+.message{
+  display:gid;
+  gap:10px;
+  grid-template-columns:1fr 1fr;}
+  #message{width:100%;}
 .name, .title{
   font-size: 3.5rem;
 }
