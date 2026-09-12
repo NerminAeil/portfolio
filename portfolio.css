@@ -526,10 +526,6 @@ button:focus,input:focus,textarea:focus{
 } /*----------Ipad Screens only (max-width:1024px)----------*/
 @media (max-width:1024px)
 {
-  .message{display:grid;
-           grid-template-column:1fr 1fr;
-           gap:5px;}
-  #message{width:100%;}
 .navigation a {
   font-size: 30px;
 }
