@@ -523,6 +523,14 @@ button:focus,input:focus,textarea:focus{
 #footer{
   color:#eeeeee;
   margin:0px 50px;
+} /*----------Ipad Screens only (max-width:1024px)----------*/
+@media (max-width:1024px)
+{
+  .hireMe{
+    margin-top:10px;}
+  #submit{margin-bottom:50px;}
+  footer p{
+    margin-bottom:20px;}
 }
 /* ---------- Mobile Screens Only (max-width: 600px) ---------- */
 @media  (max-width: 600px) {
