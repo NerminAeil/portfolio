@@ -538,7 +538,7 @@ button:focus,input:focus,textarea:focus{
 .message{
   display:gid;
   gap:10px;
-  grid-template-columns:1fr 1fr;}
+  grid-template-columns: 100% 100%;}
   #message{width:100%;}
 .name, .title{
   font-size: 3.5rem;
