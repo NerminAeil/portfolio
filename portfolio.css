@@ -526,12 +526,28 @@ button:focus,input:focus,textarea:focus{
 } /*----------Ipad Screens only (max-width:1024px)----------*/
 @media (max-width:1024px)
 {
-  .hireMe{
-    margin-top:10px;}
-  #submit{margin-bottom:50px;}
-  footer p{
-    margin-bottom:20px;}
-}
+    .heroBtns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  .hireMe {
+    margin-left: 0;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+  }
+    #submit {
+    display: block;
+    padding: 15px 50px;
+    font-size: 16px;
+    margin: 20px auto ;
+  }
+  footer p {
+    font-size: 13px;
+    text-align: center;
+    color:#eeeeee;
+    }}
 /* ---------- Mobile Screens Only (max-width: 600px) ---------- */
 @media  (max-width: 600px) {
   /* --- Navigation --- */
