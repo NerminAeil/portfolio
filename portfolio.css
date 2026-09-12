@@ -526,28 +526,47 @@ button:focus,input:focus,textarea:focus{
 } /*----------Ipad Screens only (max-width:1024px)----------*/
 @media (max-width:1024px)
 {
-    .heroBtns {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-  }
+.navigation a {
+  font-size: 30px;
+}
+.hero-text p,.internship, .stat p,.email a,.Github a,.linkedin a,.location a {
+  font-size: 25px;
+}
+
+.name, .title{
+  font-size: 3.5rem;
+}
+.textTitle,.contactTitle {
+  font-size: 2.5rem;
+}
+.stat {
+  font-size: 45px;
+}
+.stat h3 {
+  font-size: 35px;
+}
+.fa-html5, .fa-css3-alt, .fa-js,.fa-react,.fa-git-al,.devicon-vscode-plain  {
+  font-size: 50px;
+}
+.EmailI h3.connect,.Github h3.connect,.linkedin h3.connect,.location h3.connect,.label {
+  font-size: 28px;
+}
+.Github .fa-github,.fa-envelope,.fa-linkedin,.fa-location-dot { 
+             font-size: 70px;}
   .hireMe {
-    margin-left: 0;
-    padding: 0.5rem 1rem;
-    font-size: 14px;
+   margin-top:20px;
+    font-size: 24px;
   }
     #submit {
-    display: block;
-    padding: 15px 50px;
-    font-size: 16px;
-    margin: 20px auto ;
+    
+    font-size: 26px;
+    margin: 30px auto ;
   }
   footer p {
-    font-size: 13px;
-    text-align: center;
-    color:#eeeeee;
-    }}
+    font-size: 23px;
+
+    }
+ }
 /* ---------- Mobile Screens Only (max-width: 600px) ---------- */
 @media  (max-width: 600px) {
   /* --- Navigation --- */
