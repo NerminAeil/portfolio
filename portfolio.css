@@ -564,9 +564,10 @@ button:focus,input:focus,textarea:focus{
   footer p {
     font-size: 23px;
     }
+  #Name,#email{
+    margin-right:20px
   #Subject {
-  
-  margin: 12px 5px;
+  margin-right: 0px;
 }
  }
 /* ---------- Mobile Screens Only (max-width: 600px) ---------- */
