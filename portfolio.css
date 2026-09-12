@@ -554,17 +554,15 @@ button:focus,input:focus,textarea:focus{
    margin-top:20px;
     font-size: 24px;
   }
-    #submit {
-    font-size: 26px;
-    margin: 30px auto ;
+    #Name,#submit,#Subject {
+    margin-right:0 ;
+      margin-left:0;
   }
+  #submit{font-size:23px;
+          margin:30px auto;}
   footer p {
     font-size: 23px;
-    .message{
-      width:100%;
-   max-width:1024px;
-    margin:0 auto;}
- }
+  
 /* ---------- Mobile Screens Only (max-width: 600px) ---------- */
 @media  (max-width: 600px) {
   /* --- Navigation --- */
