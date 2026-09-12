@@ -558,11 +558,17 @@ button:focus,input:focus,textarea:focus{
    margin-right:0;
    margin-left:0;
   }
+  /* make sure Subject doesn't get an extra top margin on tablet */
+  #Subject {
+    margin-top: 0;
+  }
   #submit{font-size:23px;
           }
   footer p {
     font-size: 23px;
-  
+  }
+} /* end @media (max-width:1024px) */
+
 /* ---------- Mobile Screens Only (max-width: 600px) ---------- */
 @media  (max-width: 600px) {
   /* --- Navigation --- */
@@ -753,3 +759,4 @@ button:focus,input:focus,textarea:focus{
     color:#eeeeee;
   }
 }
+
