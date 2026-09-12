@@ -488,7 +488,6 @@ h2 {
 #Subject {
   color:#eeeeee;
   margin-top: 20px;
-  margin-right:0px;
   padding: 10px;
   border-radius: 50px;
   background-color: #222831;
@@ -562,8 +561,7 @@ button:focus,input:focus,textarea:focus{
   footer p {
     font-size: 23px;
     .message{
-      width:100%;
-    max-width:1024px;
+    width:1024px;
     margin:0 auto;}
  }
 /* ---------- Mobile Screens Only (max-width: 600px) ---------- */
