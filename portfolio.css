@@ -554,12 +554,12 @@ button:focus,input:focus,textarea:focus{
    margin-top:20px;
     font-size: 24px;
   }
-    #Name,#submit,#Subject {
-    margin-right:0 ;
-      margin-left:0;
+  #Name,#submit,#Subject {
+   margin-right:0;
+   margin-left:0;
   }
   #submit{font-size:23px;
-          margin:30px auto;}
+          }
   footer p {
     font-size: 23px;
   
