@@ -555,7 +555,7 @@ button:focus,input:focus,textarea:focus{
     font-size: 24px;
   }
   #Name,#submit,#Subject {
-   margin-right:10px;
+   margin-right:30%;
    margin-left:0;
   }
   /* make sure Subject doesn't get an extra top margin on tablet */
