@@ -285,7 +285,6 @@ h2 {
   color: #f05032;
   font-size: 40px;
 }
-
 .devicon-vscode-plain {
   color: #007acc;
   font-size: 40px;
@@ -562,7 +561,8 @@ button:focus,input:focus,textarea:focus{
   }
   footer p {
     font-size: 23px;
-    }
+    .message{
+      width:100%;}
  }
 /* ---------- Mobile Screens Only (max-width: 600px) ---------- */
 @media  (max-width: 600px) {
