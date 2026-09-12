@@ -561,7 +561,8 @@ button:focus,input:focus,textarea:focus{
   footer p {
     font-size: 23px;
     .message{
-    width:1024px;
+      width:100%;
+   max-width:1024px;
     margin:0 auto;}
  }
 /* ---------- Mobile Screens Only (max-width: 600px) ---------- */
