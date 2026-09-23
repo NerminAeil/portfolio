@@ -1,20 +1,34 @@
+:root {
+  --background: #222831;
+  --surface: #07101b;
+  --primary: #00adb5;
+  --primary-border: #64c0c5;
+  --text: #eeeeee;
+  --muted-text: rgba(238, 238, 238, 0.75);
+  --card-border: #455876;
+  --focus-border: #294063;
+}
+
 * {
   box-sizing: border-box;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 body {
   min-height: 50vh;
-  background-color: #222831;
+  background-color: var(--background);
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   margin: 0;
 }
+
 /* ---------- Navigation ---------- */
 .navigation {
-  border: 5px solid #64c0c5;
-  background-color: #00adb5;
+  border: 5px solid var(--primary-border);
+  background-color: var(--primary);
 }
+
 .navigation ul {
   display: flex;
   flex-direction: row;
@@ -27,23 +41,28 @@ body {
 }
 .navigation a {
   text-decoration: none;
-  color: #eeeeee;
+  color: var(--text);
   font-size: 17px;
 }
+
 .navigation a:hover {
-  color: #222831;
+  color: var(--background);
 }
+
 .navigation a:visited {
   color: darkslategray;
 }
+
 .hero-text p {
   font-size: 18px;
   font-family: "Times New Roman", Times, serif;
-  color: #eeeeee;
+  color: var(--text);
 }
+
 span {
-  color: #00adb5;
+  color: var(--primary);
 }
+
 /* ---------- Hero ---------- */
 .hero {
   display: flex;
@@ -63,73 +82,83 @@ span {
 .name {
   margin-top: 5px;
   font-size: 3rem;
-  color: #eeeeee;
+  color: var(--text);
   text-shadow:
-    3px -3px 3px #eeeeee,
-    -3px 3px 3px #00adb5;
+    3px -3px 3px var(--text),
+    -3px 3px 3px var(--primary);
 }
+
 .title {
   margin-top: -30px;
   font-size: 3rem;
-  color: #00adb5;
+  color: var(--primary);
 }
+
 hr {
   margin-top: -10px;
   border: none;
-  border-top: 2px solid #00adb5;
+  border-top: 2px solid var(--primary);
   width: 100%;
 }
+
 h2 {
-  color: #eeeeee;
+  color: var(--text);
 }
+
 .fa-briefcase {
-  color: #00adb5;
+  color: var(--primary);
   font-size: 60px;
 }
+
 .internship {
- display:flex;
-  color: #eeeeee;
+  display: flex;
+  color: var(--text);
   justify-content: center;
   font-size: 18px;
   gap: 1.2em;
 }
-.intern{
-  display:flex;
-  gap:1.2em;
-  flex-direction:row;
+
+.intern {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2em;
 }
+
 .heroBtns {
   margin-top: 0.5rem;
 }
+
 .hireMe {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #00adb5;
-  color: #eeeeee;
+  background-color: var(--primary);
+  color: var(--text);
   border-radius: 24px;
   text-decoration: none;
   padding: 0.5rem 1.5rem;
-  border: 3px solid #00adb5;
+  border: 3px solid var(--primary);
   display: inline-block;
   margin-left: 70px;
 }
-.hireMe:hover{
-  background:transparent;
-  color:#00adb5;
+
+.hireMe:hover {
+  background: transparent;
+  color: var(--primary);
 }
- #hm {
+
+#hm,
+#My-project {
   display: inline-block;
   transition: transform 0.3s ease;
 }
+
 #hm:hover {
   transform: scale(1.1);
 }
- #My-project {
-  display: inline-block;
-  transition: transform 0.3s ease;
-}
+
 #My-project:hover {
   transform: scale(1.1);
 }
+
 .heroImg {
   max-height: 70vh;
   margin-right: 50px;
@@ -155,13 +184,15 @@ h2 {
   font-size: 2rem;
 }
 .aboutName {
-  color: #eeeeee;
+  color: var(--text);
 }
+
 .aboutTitle {
-  color: #00adb5;
+  color: var(--primary);
 }
+
 .aboutMePar {
-  color: rgb(238, 238, 238, 0.75);
+  color: var(--muted-text);
   text-align: justify;
 }
 .about-stats {
@@ -174,22 +205,21 @@ h2 {
 .stat {
   border: none;
   width: 100%;
-  border-right: 1px solid #00adb5;
+  border-right: 1px solid var(--primary);
   text-align: center;
   flex: 1;
-  /* Font Awesome icons inherit color from parent via currentColor */
-  color: #00adb5;
+  color: var(--primary);
   font-size: 35px;
   padding-right: 20px;
   margin-bottom: 15px;
 }
 .stat h3 {
-  color: #00adb5;
+  color: var(--primary);
   font-size: 25px;
   margin: 10px 0;
 }
 .stat p {
-  color: #eeeeee;
+  color: var(--text);
   font-size: 14px;
 }
 .stat:last-child {
@@ -203,19 +233,19 @@ h2 {
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
-  color: #00adb5;
+  color: var(--primary);
   border: none;
   width: 100%;
   font-size: x-large;
   padding-bottom: 20px;
-  border-bottom: 5px solid #eeeeee;
+  border-bottom: 5px solid var(--text);
 }
-.Skillscontainer h1 {
+.Skillscontainer h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #eeeeee;
+  color: var(--text);
 }
 .Skillscontainer p {
-  color: #eeeeee;
+  color: var(--text);
 }
 .Skills {
   display: flex;
@@ -223,7 +253,7 @@ h2 {
   align-items: center;
   border: none;
   width: 300px;
-  border-bottom: 2px solid #00adb5;
+  border-bottom: 2px solid var(--primary);
   gap: 0.5rem;
   margin-top: 2rem;
   color: hsl(183, 96%, 51%);
@@ -243,7 +273,10 @@ h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
 }
-#toolscontainer .fa-github { color: #ffffff; font-size: 40px; }
+#toolscontainer .fa-github {
+  color: #ffffff;
+  font-size: 40px;
+}
 
 .Skillscards {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -254,12 +287,12 @@ h2 {
   margin-top: 40px;
   margin-bottom: 50px;
   border-radius: 25px;
-  border: 2px solid #455876;
+  border: 2px solid var(--card-border);
   transition: 0.3s;
 }
 .Skillscards:hover {
   transform: translateY(-10px) scale(1.05);
-  background-color: #00adb5;
+  background-color: var(--primary);
 }
 .fa-html5 {
   color: #e34f26;
@@ -308,7 +341,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap:8px;
+  gap: 8px;
 }
 .email {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -317,7 +350,7 @@ h2 {
   align-items: center;
   gap: 15px;
   padding: 20px 15px;
-  width:100%;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 20px;
   border-radius: 25px;
@@ -362,11 +395,13 @@ h2 {
   margin-bottom: 20px;
   border-radius: 25px;
   border: 2px solid #455876;
-  width:100%;
+  width: 100%;
   transition: 0.3s;
 }
-.Github .fa-github { color: #00adb5; 
-                      font-size: 60px;}
+.Github .fa-github {
+  color: #00adb5;
+  font-size: 60px;
+}
 .GithubI {
   text-align: left;
 }
@@ -394,7 +429,7 @@ h2 {
   margin-bottom: 20px;
   border-radius: 25px;
   border: 2px solid #455876;
-  width:100%;
+  width: 100%;
   transition: 0.3s;
 }
 .linkedin:hover {
@@ -428,7 +463,7 @@ h2 {
   border-radius: 25px;
   border: 2px solid #455876;
   transition: 0.3s;
-  width:100%;
+  width: 100%;
 }
 .location:hover {
   transform: translateY(-5px);
@@ -468,30 +503,30 @@ h2 {
   color: #eeeeee;
 }
 .label {
-  margin-left:50px;
+  margin-left: 50px;
   color: #00adb5;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 #Name {
-  color:#eeeeee;
+  color: #eeeeee;
   margin-right: 50px;
-  margin-bottom:40px;
+  margin-bottom: 40px;
   padding: 10px;
   border-radius: 50px;
   background-color: #222831;
   border: 2px solid #00adb5;
 }
 #email {
-  color:#eeeeee;
-  margin-right:50px;
+  color: #eeeeee;
+  margin-right: 50px;
   padding: 10px;
   border-radius: 50px;
   background-color: #222831;
   border: 2px solid #00adb5;
 }
 #Subject {
-  color:#eeeeee;
+  color: #eeeeee;
   margin-top: 20px;
   padding: 10px;
   border-radius: 50px;
@@ -502,7 +537,7 @@ h2 {
   margin-bottom: 70px;
   
 }
-.Message{
+.Message {
   display:flex;
   flex-direction:column;
 }
@@ -523,19 +558,22 @@ h2 {
   border: 2px solid #00adb5;
   transition: 0.3s;
 }
-button:focus,input:focus,textarea:focus{
-  outline:2px solid #00adb5;
-  outline-offset:3px;
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid #00adb5;
+  outline-offset: 3px;
 }
 #submit:active {
   background-color: #007acc;
 }
-#footer{
-  color:#eeeeee;
-  margin:10px auto;
-} /*----------Ipad Screens only (max-width:1024px)----------*/
-@media (max-width:1024px)
-{
+ #footer {
+  color: #eeeeee;
+  margin: 10px auto;
+}
+
+/* ---------- Tablet screens (max-width: 1024px) ---------- */
+@media (max-width: 1024px) {
 .navigation a {
   font-size: 30px;
 }
@@ -554,7 +592,12 @@ button:focus,input:focus,textarea:focus{
 .stat h3 {
   font-size: 35px;
 }
-.fa-html5, .fa-css3-alt, .fa-js,.fa-react,.fa-git-al,.devicon-vscode-plain  {
+.fa-html5,
+.fa-css3-alt,
+.fa-js,
+.fa-react,
+.fa-git-alt,
+.devicon-vscode-plain {
   font-size: 50px;
 }
 .EmailI h3.connect,.Github h3.connect,.linkedin h3.connect,.location h3.connect,.label {
@@ -579,10 +622,11 @@ button:focus,input:focus,textarea:focus{
   footer p {
     font-size: 23px;
   }
-} /* end @media (max-width:1024px) */
+}
 
-/* ---------- Mobile Screens Only (max-width: 600px) ---------- */
-@media  (max-width: 600px) {
+/* ---------- Mobile screens (max-width: 600px) ---------- */
+
+@media (max-width: 600px) {
   /* --- Navigation --- */
   .navigation ul {
     flex-direction: column;
@@ -763,12 +807,12 @@ button:focus,input:focus,textarea:focus{
     display: block;
     padding: 15px 50px;
     font-size: 16px;
-    margin: 20px auto ;
+    margin: 20px auto;
   }
   footer p {
     font-size: 13px;
     text-align: center;
-    color:#eeeeee;
+    color: #eeeeee;
   }
 }
 
