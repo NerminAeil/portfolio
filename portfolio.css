@@ -308,6 +308,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap:8px;
 }
 .email {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -316,6 +317,7 @@ h2 {
   align-items: center;
   gap: 15px;
   padding: 20px 15px;
+  width:100%;
   margin-top: 10px;
   margin-bottom: 20px;
   border-radius: 25px;
@@ -360,6 +362,7 @@ h2 {
   margin-bottom: 20px;
   border-radius: 25px;
   border: 2px solid #455876;
+  width:100%;
   transition: 0.3s;
 }
 .Github .fa-github { color: #00adb5; 
@@ -391,6 +394,7 @@ h2 {
   margin-bottom: 20px;
   border-radius: 25px;
   border: 2px solid #455876;
+  width:100%;
   transition: 0.3s;
 }
 .linkedin:hover {
@@ -424,6 +428,7 @@ h2 {
   border-radius: 25px;
   border: 2px solid #455876;
   transition: 0.3s;
+  width:100%;
 }
 .location:hover {
   transform: translateY(-5px);
@@ -495,16 +500,23 @@ h2 {
 }
 .message h2 {
   margin-bottom: 70px;
+  
+}
+.Message{
+  display:flex;
+  flex-direction:column;
 }
 #message {
   color:#eeeeee;
   padding: 10px;
   border-radius: 10px;
+  width:50%;
+  margin:10px auto;
   background-color: #222831;
   border: 2px solid #00adb5;
 }
 #submit {
-  margin:10px auto auto 50px;
+  margin:10px auto 10px auto;
   padding: 20px 100px;
   border-radius: 50px;
   background-color: #222831;
@@ -520,7 +532,7 @@ button:focus,input:focus,textarea:focus{
 }
 #footer{
   color:#eeeeee;
-  margin:0px 50px;
+  margin:10px auto;
 } /*----------Ipad Screens only (max-width:1024px)----------*/
 @media (max-width:1024px)
 {
